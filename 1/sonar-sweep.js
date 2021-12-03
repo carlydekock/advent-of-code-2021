@@ -1,7 +1,7 @@
 //Tip on how to read from text file here: https://stackoverflow.com/questions/6831918/node-js-read-a-text-file-into-an-array-each-line-an-item-in-the-array
 
 const fs = require('fs');
-const measurements = fs.readFileSync('./day1/input.txt').toString().split('\n');
+const measurements = fs.readFileSync('./1/input.txt').toString().split('\n');
 
 const measurementsTest = [199, 200, 208, 210, 200, 207, 240, 269, 260, 263];
 
